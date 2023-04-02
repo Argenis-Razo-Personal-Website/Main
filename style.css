@@ -1,0 +1,100 @@
+*   {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.74);
+   
+}
+header{
+    position: left;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,0.5);
+    display: block;
+    padding-left: 3%;
+    background-color: #ffffff;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.gifcen.com/wp-content/uploads/2022/04/wallpaper-gif-4.gif);
+    background-position: center;    
+    background-size: cover;
+    
+    }
+
+
+.container {
+    display: flex;
+       
+    padding: 90px;
+    width: 600px;
+    height: 800px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+
+    background-image: linear-gradient(rgba(85, 241, 150, 0.322), rgba(125, 219, 155, 0.699), rgba(181, 148, 182, 0.541)), url(https://www.gifcen.com/wp-content/uploads/2022/04/wallpaper-gif-4.gif);
+}
+
+
+.container .item {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align:  start;
+    border-image-width: auto;
+    
+}
+.name {
+    font-family: 'Play', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #d3290b;
+    text-align: center;
+    margin: 2rem auto;
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline black 1px;
+    
+}
+.links {
+    font-family: 'Play', sans-serif;
+    font-size: large;
+    float: right;
+    display: block;
+    
+    
+}
+.item {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d3290b;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 2rem auto;
+    margin: 2rem auto;
+    font-family: 'Play', sans-serif;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+
+}
+body div a{
+    text-decoration: none;
+    color: #fd00004b;
+    font-size: 10px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+}
